@@ -8,13 +8,11 @@ let package = Package(
     platforms: [
     	.macOS(.v10_12)
     ],
-    dependencies: [
-	    .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.0.0-beta.5")
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "scripto",
-            dependencies: ["Alamofire"]),
+            dependencies: []),
         .testTarget(
             name: "scriptoTests",
             dependencies: ["scripto"]),
