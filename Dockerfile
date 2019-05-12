@@ -1,5 +1,5 @@
-FROM swift:5.0
 # the base image to use
+FROM swift:5.0
 
 # copy all files from folder root into image
 COPY . .
